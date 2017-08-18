@@ -7,8 +7,8 @@ import java.util.HashMap;
 
 public class DataHandler {
 	public static final int MAX_PASTE_NAME_LENGTH = 100;
-	public static final int MAX_PASTE_CONTENT_LENGTH = 10485760; // 10 MB
-	public static final int MAX_PASTE_COUNT = 10;
+	public static final int MAX_PASTE_CONTENT_LENGTH = 1048576; // 1 MB
+	public static final int MAX_PASTE_COUNT = 10000;
 	
 	private static File dataDirectory = null;
 	
